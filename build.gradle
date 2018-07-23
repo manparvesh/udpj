@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.manparvesh'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// todo create gradle tasks to start the server and client
